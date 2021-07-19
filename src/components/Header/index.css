@@ -1,0 +1,27 @@
+.App-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.App-header ul {
+  padding: 0;
+  margin: 20px 0;
+}
+
+.App-header ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.App-header ul li:first-of-type:before {
+  display: none;
+}
+
+.App-header ul li::before {
+  content: "•";
+  color: black;
+  position: relative;
+  left: -15px;
+}
